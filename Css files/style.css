@@ -1,0 +1,55 @@
+body{
+    background-color: #f2f2f2;
+    font-family: American Typewriter, serif;
+    font-weight:unset;
+}
+.img_intro {
+  background-image: url("images_for_webpage/web image.jpeg");
+  background-size: 500px no-repeat;
+  width: 1000px;
+  height: 700px;
+  margin-left: 200px;
+  margin-bottom: 25px;
+  border: solid 2px rgb(204, 35, 176);
+}
+h2{
+  text-align: center;
+}
+#about{
+  padding-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#education{
+  padding: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#tstrength{
+  padding-bottom: 25px;
+  background: url(images_for_webpage/programming-languages.png) no-repeat;
+  background-size: 100% 110%;
+  margin-left: 200px;
+  margin-right: 200px;
+  /* background-size: cover; */
+}
+#in_tstrength{
+  background-color: rgba(255, 255, 255, 0.75) ;
+}
+#extra-c{
+  padding-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse; 
+}
+#connect{
+  text-align: center;
+  font-size: 30px;
+}
+a{
+  padding-right: 5px;
+}
+  
