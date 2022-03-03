@@ -1,36 +1,45 @@
 body{
-    background-color: #f2f2f2;
-    font-family: American Typewriter, serif;
-    font-weight:unset;
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: American Typewriter, serif;
+  font-weight:unset;
 }
 .img_intro {
-  background-image: url("images_for_webpage/web image.jpeg");
-  background-size: 500px no-repeat;
-  width: 1000px;
-  height: 700px;
-  margin-left: 200px;
-  margin-bottom: 25px;
+  background-image: url("images_for_webpage/web image.jpeg") no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
+  height: auto;
+  margin: auto;
   border: solid 2px rgb(204, 35, 176);
+}
+img {
+  width: 100%;
+  height: auto;
 }
 h2{
   text-align: center;
 }
-#about{
+.about{
   padding-bottom: 25px;
-  margin-left: 200px;
-  margin-right: 200px;
+  width: 80%;
+  margin:auto;
 }
 #education{
+  color: white;
   padding: 25px;
-  margin-left: 200px;
-  margin-right: 200px;
+  width: 80%;
+  margin:auto;
+  
 }
+
 #tstrength{
   padding-bottom: 25px;
-  background: url(images_for_webpage/programming-languages.png) no-repeat;
+  /* background: url(images_for_webpage/programming-languages.png) no-repeat; */
   background-size: 100% 110%;
-  margin-left: 200px;
-  margin-right: 200px;
+  width: 80%;
+  margin:auto;
   /* background-size: cover; */
 }
 #in_tstrength{
@@ -38,12 +47,13 @@ h2{
 }
 #extra-c{
   padding-bottom: 25px;
-  margin-left: 200px;
-  margin-right: 200px;
+  width: 80%;
+  margin:auto;
 }
 table, th, td{
   border: 1px solid black;
   border-collapse: collapse; 
+  
 }
 #connect{
   text-align: center;
